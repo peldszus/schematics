@@ -2,7 +2,7 @@
 
 from __future__ import division
 
-from collections import Iterable
+from collections.abc import Iterable
 import itertools
 
 from ..exceptions import ValidationError, ConversionError, ModelValidationError, StopValidation

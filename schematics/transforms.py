@@ -265,7 +265,7 @@ def allow_none(cls, field):
 # Field Filtering
 ###
 
-class Role(collections.Set):
+class Role(collections.abc.Set):
 
     """
     A ``Role`` object can be used to filter specific fields against a sequence.
